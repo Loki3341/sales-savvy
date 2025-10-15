@@ -1,1 +1,1 @@
-salessavvyApp
+http://localhost:5174/
