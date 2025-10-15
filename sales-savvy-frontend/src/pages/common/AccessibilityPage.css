@@ -1,0 +1,134 @@
+.accessibility-page {
+    min-height: 100vh;
+}
+
+.accessibility-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.accessibility-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.accessibility-content {
+    padding: 4rem 0;
+}
+
+.accessibility-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.accessibility-intro h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.accessibility-intro p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accessibility-section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.accessibility-section h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+.accessibility-section h3 {
+    color: #555;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.accessibility-section p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.accessibility-section ul {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.accessibility-section li {
+    margin-bottom: 0.5rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.feature-card {
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.feature-card h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.feature-card p {
+    color: #666;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.accessibility-update {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 3rem;
+}
+
+.accessibility-update p {
+    color: #666;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .accessibility-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .accessibility-intro h2 {
+        font-size: 1.5rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
