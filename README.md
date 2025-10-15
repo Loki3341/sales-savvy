@@ -2,7 +2,7 @@
 
 A full-stack e-commerce application with React frontend and Spring Boot backend.
 
-## Features
+## 🚀 Features
 
 ### Frontend
 - Customer shopping cart and checkout
@@ -16,13 +16,15 @@ A full-stack e-commerce application with React frontend and Spring Boot backend.
 - MySQL database
 - Payment integration
 
-## Tech Stack
+## 🛠 Tech Stack
 
-Frontend: React, Vite, CSS
-Backend: Spring Boot, MySQL, Maven
+**Frontend:** React, Vite, CSS  
+**Backend:** Spring Boot, MySQL, Maven
 
-## How to Run
+## 📁 Project Structure
 
-1. Clone this repository
-2. Run backend: Open sales-savy-backend in Spring Tool Suite
-3. Run frontend: Open sales-savvy-frontend and run npm start
+## 🚀 How to Run
+
+1. **Clone this repository**
+2. **Backend**: Open `sales-savy-backend` in Spring Tool Suite and run
+3. **Frontend**: Open `sales-savvy-frontend` and run `npm start`
