@@ -1,7 +1,7 @@
 ## 🛍️ Sales Savvy - Live Demo
 
 **Frontend:** https://sales-savvy.vercel.app/
-**Backend API:** https://sales-savvy-production-f77a.up.railway.app/api
+**Backend API:** https://sales-savvy-production-f77a.up.railway.app
 
 ### ✅ Features Working:
 - User Registration & Authentication
