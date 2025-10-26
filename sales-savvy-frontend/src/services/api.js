@@ -92,7 +92,7 @@ const apiRequest = async (endpoint, options = {}) => {
     console.error('🔴 Fetch error:', error);
     
     if (error.name === 'TypeError' && error.message.includes('fetch')) {
-      throw new Error('Cannot connect to server. Please make sure the backend is running on http://localhost:8080');
+      throw new Error('Cannot connect to server. Please make sure the backend is running on https://sales-savvy-production-f77a.up.railway.app');
     }
     
     throw error;
@@ -103,7 +103,7 @@ const apiRequest = async (endpoint, options = {}) => {
 const testConnection = async () => {
   try {
     console.log('🔍 Testing backend connection...');
-    const response = await fetch(`${API_BASE_URL}/dashboard/health`);
+    const response = await fetch(`${API_BASE_URL}/health`);
     if (response.ok) {
       console.log('✅ Backend is reachable');
       return true;
