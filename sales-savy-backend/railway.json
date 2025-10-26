@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "MAVEN"
+  },
+  "deploy": {
+    "startCommand": "java -jar target/sales-savy-backend-0.0.1-SNAPSHOT.jar"
+  }
+}
