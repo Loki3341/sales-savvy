@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "cd sales-savy-backend && chmod +x mvnw && ./mvnw clean package -DskipTests"
+  },
+  "deploy": {
+    "startCommand": "cd sales-savy-backend && java -jar target/sales-savy-1.0.0.jar",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
