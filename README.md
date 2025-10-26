@@ -1,10 +1,18 @@
-## 🚀 Live Demo
-**Frontend:** https://68f2398376fe421a825ed24e--sales-savvyapp.netlify.app/  
-**Backend API:** Coming soon...
+## 🛍️ Sales Savvy - Live Demo
 
-## 📱 Features Currently Working
-- ✅ Product catalog
-- ✅ Navigation
-- ✅ Responsive design
-- ⚠️ Authentication (backend needed)
-- ⚠️ Cart & Checkout (backend needed)
+**Frontend:** https://sales-savvy.vercel.app/
+**Backend API:** https://sales-savvy-production-f77a.up.railway.app/api
+
+### ✅ Features Working:
+- User Registration & Authentication
+- Product Catalog & Search
+- Shopping Cart Management
+- Order Processing
+- Payment Integration
+- Admin Dashboard
+
+### 🚀 Tech Stack:
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Spring Boot, Java 17
+- **Database:** MySQL
+- **Deployment:** Vercel (Frontend), Railway (Backend)
