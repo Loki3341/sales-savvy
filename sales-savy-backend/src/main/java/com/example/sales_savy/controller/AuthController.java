@@ -16,7 +16,13 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:5174", "http://localhost:3000"}, allowCredentials = "true")
+@CrossOrigin(origins = {
+    "http://localhost:5173", 
+    "http://localhost:5174", 
+    "http://localhost:3000",
+    "https://sales-savvy.vercel.app",
+    "https://*.vercel.app"
+}, allowCredentials = "true")
 public class AuthController {
 
     @Autowired
@@ -351,7 +357,7 @@ public class AuthController {
     private void setAuthCookie(HttpServletResponse response, String token) {
         Cookie cookie = new Cookie("authToken", token);
         cookie.setHttpOnly(true);
-        cookie.setSecure(false); // Set to true in production with HTTPS
+        cookie.setSecure(true); // Changed to true for production
         cookie.setPath("/");
         cookie.setMaxAge(3600); // 1 hour
         response.addCookie(cookie);
@@ -363,7 +369,7 @@ public class AuthController {
     private void clearAuthCookie(HttpServletResponse response) {
         Cookie cookie = new Cookie("authToken", "");
         cookie.setHttpOnly(true);
-        cookie.setSecure(false);
+        cookie.setSecure(true); // Changed to true for production
         cookie.setPath("/");
         cookie.setMaxAge(0);
         response.addCookie(cookie);
