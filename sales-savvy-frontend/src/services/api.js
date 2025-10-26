@@ -103,7 +103,7 @@ const apiRequest = async (endpoint, options = {}) => {
 const testConnection = async () => {
   try {
     console.log('🔍 Testing backend connection...');
-    const response = await fetch(`${API_BASE_URL}/health`);
+    const response = await fetch(`${API_BASE_URL}/auth/health`);
     if (response.ok) {
       console.log('✅ Backend is reachable');
       return true;
